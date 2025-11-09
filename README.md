@@ -58,4 +58,21 @@ olors de quoi est constitue le  *** OPS ***
       en gros cela est le plus grand ravaille du devops
 
 ##   E LE MONITORING
-     elle permet de traquer tout les erreur du systeme permettant au coduer de le resoudre car le client ne vas pas te dire l'erreur ce a toi de voir   donc il permet de controler tout les actions du client dans l'appliction et cela rend plus de profetionalisme      
+     elle permet de traquer tout les erreur du systeme permettant au coduer de le resoudre car le client ne vas pas te dire l'erreur ce a toi de voir   donc il permet de controler tout les actions du client dans l'appliction et cela rend plus de profetionalisme
+     ---
+
+# LECON 2 LINUX
+
+  LES COMMANDE LES PLUS UTILE EN DEVOPS
+
+      pour les gestion du system
+      bin  sbin  lib  boot  etc
+
+      pour la gestion des utilisateru 
+      home   root
+
+      [our le stocjage des donnees
+      var  tmp   srv
+      
+      ]
+
