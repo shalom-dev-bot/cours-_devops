@@ -1,11 +1,11 @@
 # INTRODUCTION AU DEVOPS
- ici lorsqu'on devellope une application alors on lui met enproductions dans des serveur
+ ici lorsqu'on devellope une application alors on lui met en productions dans des serveurs
  et parlant de cela on a les serveur *** PAAS *** 
  
  ## 1 PASS 
- ici generalement les serveur sont deja xonfigurer juste des simple configuration qui ne demande pas trop de connaissance en la matiere 
+ ici generalement ls majorite des serveur sont deja configurer juste des simple configuration qui ne demande pas trop de connaissance en la matiere 
  EXEMPLE nous avons *** heruku, render***
-    REMARQUE 
+    ### REMARQUE 
     en genie logiciel il existe une notion nomme SDLC(software development life circle)
     ici on passe par une processus d'etape a savoir 
 
@@ -29,7 +29,8 @@ don pour applique le principe de SDLC il existe plusieur methode a svoir
 cela est contitue du mot DEV  qui veut dire devellopeur  OPS qui veux dire *** OPERATIONS ***
 et et tout cele forme ce qu'on appele *** DEVOPS***
 olors de quoi est constitue le  *** OPS ***
-  -COLLABORATION
+
+  - COLLABORATION
   - MONITORING
   - CI/CD
   - IAC (infrastructure as code)
@@ -62,17 +63,52 @@ olors de quoi est constitue le  *** OPS ***
      ---
 
 # LECON 2 LINUX
+ 
+  le systeme linux a un coeur et il est appeller le KERNEL et es lui qui vas communiquer avec les partir materiel du system comme la souris le clavier et d\autre on les retrouve dans les dossier suivant DEV ,PROC ET SYS
+  dans linux il existe des tache qui sexecute en arriere plan et generalement il finissent pas la lettre (d)
+  et est appeler *** LES DEMOND ***
+  nous avons les fichier cacher et est materialiser par un point au debut du mot
 
-  LES COMMANDE LES PLUS UTILE EN DEVOPS
+  LISTE DES DOSSIER SYSTEME
 
-      pour les gestion du system
+    pour les gestion du system
       bin  sbin  lib  boot  etc
 
-      pour la gestion des utilisateru 
+    pour la gestion des utilisateru 
       home   root
 
-      [our le stocjage des donnees
+    Pour le stocjage des donnees
       var  tmp   srv
+
+    pour le materiel et peripherique
+      dev  proc  sys
+
+    pour les logiciel et extension
+      opt  usr
+
+    pour les montage de memoire
+      mnt  media 
       
-      ]
+  ### LES COMMMANDE LES PLUS IMPORTANTE POUR LE DEVOPS
+
+    ici nous allons commencer par la commande 
+    *** sudo su*** cette commande te permet de te connecter en tant que super utilisateur et generalement on le fait souvent pour faire des installoations dans notre systeme
+
+  ###LES GESTIONNAIRE DE PACKAGE
+
+    - yum
+    - apt
+
+      si on veut installer un service sur notre machine on utilise soit le yum ou le apt selon votre distribution cela peux etre ubuntu pop os debian centos ou d'autres
+      lprsque cela ne veux pas montre la version apres installation alors cela voudrait dit que ces un service system et pour cela on doit faire appele au service systeme a traverrs la commange suivant
+        systemctl(systemctl action(
+          start ,restart, stop, status,reload,enable ,desable,
+        ))puis le nom du service 
+        CAT(cat et le nom du fichier) permet d'afiche le contenue du fichier
+        nous avon *** VIM *** qui est la commande permettant d'ouvrir un editeur dans le terminal
+
+      par EXEMPLE nous 
+      pour installer on fait *** apt install/unistall puis le nom de service
+      apt install nginx(est un serveur web )il joue le role de RIVER PROXY ,LOAD BALANCER
+
 
