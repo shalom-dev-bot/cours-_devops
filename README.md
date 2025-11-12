@@ -94,10 +94,10 @@ olors de quoi est constitue le  *** OPS ***
     ici nous allons commencer par la commande 
     *** sudo su*** cette commande te permet de te connecter en tant que super utilisateur et generalement on le fait souvent pour faire des installoations dans notre systeme
 
-  ###LES GESTIONNAIRE DE PACKAGE
+  ###LES GESTIONNAIRE DE PACKAGE  OU PACKAGE MANAGER
 
-    - yum
-    - apt
+    - apt(comme distributeur on  a debian ubuntu pop os)
+    - yum(centos, fedora rhel)
 
       si on veut installer un service sur notre machine on utilise soit le yum ou le apt selon votre distribution cela peux etre ubuntu pop os debian centos ou d'autres
       lprsque cela ne veux pas montre la version apres installation alors cela voudrait dit que ces un service system et pour cela on doit faire appele au service systeme a traverrs la commange suivant
