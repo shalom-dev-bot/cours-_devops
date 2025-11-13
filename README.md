@@ -94,7 +94,7 @@ olors de quoi est constitue le  *** OPS ***
     ici nous allons commencer par la commande 
     *** sudo su*** cette commande te permet de te connecter en tant que super utilisateur et generalement on le fait souvent pour faire des installoations dans notre systeme
 
-  ###LES GESTIONNAIRE DE PACKAGE  OU PACKAGE MANAGER
+  ### LES GESTIONNAIRE DE PACKAGE  OU PACKAGE MANAGER
 
     - apt(comme distributeur on  a debian ubuntu pop os)
     - yum(centos, fedora rhel)
