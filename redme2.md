@@ -8,3 +8,7 @@
             scp -i devops-100 le fichier a copier et puis le chemin ou on veu mettre
             ctr + w cela permet de faire une recherche
             tout ces commendr sont pour linux
+
+
+             chmod +x monitor.sh permet de rendre un fichier executable
+
